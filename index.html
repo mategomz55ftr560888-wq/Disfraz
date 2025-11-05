@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Concurso de Disfraces - Halloween</title>
+<style>
+    body{
+        font-family: "Trebuchet MS", sans-serif;
+        background: #0a0a0a;
+        margin: 0;
+        padding: 20px;
+        background-image: 
+            radial-gradient(circle at top, rgba(255,0,0,0.4), transparent 60%),
+            url('https://i.imgur.com/tVq3lqA.png'); /* textura spooky */
+        background-size: cover;
+        color: white;
+    }
+    .tarjeta{
+        width: 480px;
+        background: #1b1b1b;
+        padding: 20px;
+        border-radius: 15px;
+        margin: auto;
+        border: 3px solid #b30000;
+        box-shadow: 0 0 25px red, 0 0 50px black inset;
+        position: relative;
+    }
+
+    .title-skull{
+        font-size: 28px;
+        text-align: center;
+        margin-bottom: 10px;
+        color: #ff1c1c;
+        text-shadow: 0 0 8px red;
+        font-weight: bold;
+    }
+
+    .imagenes{
+        display: flex;
+        justify-content: space-between;
+        gap: 10px;
+        margin-bottom: 15px;
+    }
+    .img-alumno{
+        width: 52%;
+        height: 590px;
+        border-radius: 10px;
+        object-fit: cover;
+        border: 3px solid #ff0000;
+        box-shadow: 0 0 15px red;
+    }
+    .img-scream{
+        width: 48%;
+        height: 240px;
+        border-radius: 10px;
+        object-fit: cover;
+        border: 2px solid #660000;
+        box-shadow: 0 0 10px red;
+    }
+
+    h3{
+        text-align: center;
+        font-size: 22px;
+        color: #ff3c3c;
+        text-shadow: 0 0 6px red;
+        margin-top: 10px;
+    }
+
+    .dato{
+        font-size: 18px;
+        margin: 8px 0;
+        color: #f3caca;
+        text-shadow: 0 0 5px #b30000;
+    }
+
+    .bats{
+        position: absolute;
+        top: -15px;
+        right: -15px;
+        width: 80px;
+    }
+    .web{
+        position: absolute;
+        top: -5px;
+        left: -5px;
+        width: 80px;
+        opacity: 0.7;
+    }
+</style>
+</head>
+
+<body>
+<div class="tarjeta">
+    <img class="bats" src="https://i.imgur.com/SbibN5U.png" alt="murciélagos">
+    <img class="web" src="https://i.imgur.com/wgYhTW7.png" alt="telaraña">
+
+    <div class="title-skull">🎃 Concurso de Disfraces 🎃</div>
+
+    <div class="imagenes">
+        <img class="img-alumno" src="alumno.jpg" alt="Alumno con disfraz">
+        <img class="img-scream" src="scream-personaje.jpg" alt="Scream">
+    </div>
+
+    <h3>👻 Categoría: Terror 👻</h3>
+
+    <div class="dato"><b>Nombre del disfraz:</b> Scream</div>
+    <div class="dato"><b>Descripción:</b> Figura clásica del horror con túnica oscura y máscara pálida escalofriante.</div>
+    <div class="dato"><b>Detalles:</b> Capa negra, máscara icónica, estilo slasher.</div>
+    <div class="dato"><b>Alumno:</b> Saúl Gutiérrez Vásquez</div>
+    <div class="dato"><b>Grupo:</b> 501</div>
+</div>
+</body>
+</html>
